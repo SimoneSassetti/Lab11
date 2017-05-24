@@ -7,6 +7,7 @@ public class Event implements Comparable<Event>{
 	private Gruppo gruppo;
 	private Type tipo;
 	private int time;
+	
 	public Event(Gruppo gruppo, Type tipo, int time) {
 		super();
 		this.gruppo = gruppo;
@@ -41,7 +42,5 @@ public class Event implements Comparable<Event>{
 	public String toString() {
 		return gruppo+" "+ tipo +" "+time;
 	}
-	
-	
 	
 }

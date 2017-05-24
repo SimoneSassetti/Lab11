@@ -36,6 +36,4 @@ public class Tavolo {
 	public String toString() {
 		return name+ " " + numPosti+ " " + libero;
 	}
-	
-	
 }

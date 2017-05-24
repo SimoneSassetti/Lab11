@@ -88,10 +88,5 @@ public class Gruppo implements Comparable<Gruppo>{
 		} else if (!name.equals(other.name))
 			return false;
 		return true;
-	}
-	
-	
-	
-	
-	
+	}	
 }
