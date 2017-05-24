@@ -30,7 +30,12 @@ public class BarController {
 
     @FXML
     void handleSimula(ActionEvent event) {
-
+    	
+    	model.setGruppi();
+    	model.run();
+    	txtResult.appendText("\nRisultati:\nClienti Elaborati: "+model.getNumTotClienti()+"\n"+
+    			"Clienti soddisfatti: "+model.getNumClientiSod()+"\n"+
+    			"Clienti insoddisfatti: "+model.getNumClientiInsod()+".");
     }
 
     @FXML
